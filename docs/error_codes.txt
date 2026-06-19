@@ -1,0 +1,21 @@
+COMMON ERROR CODES
+
+ERR101:
+Invalid username or password.
+
+ERR102:
+Account temporarily locked.
+
+ERR201:
+Payment processing failed.
+
+ERR301:
+Subscription expired.
+
+ERR401:
+Unauthorized access.
+
+ERR501:
+Internal server error.
+
+Contact support if the issue persists.

@@ -1,0 +1,15 @@
+API AUTHENTICATION GUIDE
+
+All API requests require authentication.
+
+Authentication Methods:
+- API Key
+- OAuth 2.0
+
+API Key Usage:
+Include the API key in the Authorization header.
+
+Example:
+Authorization: Bearer YOUR_API_KEY
+
+Unauthorized requests will return HTTP 401.

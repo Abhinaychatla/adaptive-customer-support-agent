@@ -1,0 +1,15 @@
+BILLING POLICY
+
+Subscription fees are charged monthly or annually.
+
+Accepted Payment Methods:
+- Credit Card
+- Debit Card
+- UPI
+- Net Banking
+
+Failed Payments:
+- Users receive email notifications.
+- Three failed attempts may result in account suspension.
+
+Invoices are available in the billing dashboard.

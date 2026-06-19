@@ -1,0 +1,16 @@
+USER MANAGEMENT POLICY
+
+Administrators can manage users within their organization.
+
+Admin Permissions:
+- Add users
+- Remove users
+- Assign roles
+- Reset passwords
+
+Roles:
+1. Admin
+2. Manager
+3. User
+
+Changes made by administrators are logged for auditing purposes.

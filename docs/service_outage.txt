@@ -1,0 +1,11 @@
+SERVICE OUTAGE PROCEDURE
+
+In the event of a service outage:
+
+1. Engineers investigate the issue immediately.
+2. Status updates are published every 30 minutes.
+3. Critical issues receive highest priority.
+
+Customers can check system status on the status page.
+
+Most incidents are resolved within 4 hours.

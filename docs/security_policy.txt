@@ -1,0 +1,13 @@
+SECURITY POLICY
+
+Customer data is protected using industry-standard security measures.
+
+Security Features:
+- Data encryption
+- Secure authentication
+- Regular security audits
+- Multi-factor authentication
+
+Users should never share passwords with others.
+
+Security incidents should be reported immediately.

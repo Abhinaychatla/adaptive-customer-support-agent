@@ -1,0 +1,18 @@
+SUBSCRIPTION PLANS
+
+Basic Plan:
+- ₹499/month
+- Up to 5 users
+- Email support
+
+Premium Plan:
+- ₹999/month
+- Up to 25 users
+- Priority support
+- Analytics dashboard
+
+Enterprise Plan:
+- Custom pricing
+- Unlimited users
+- Dedicated account manager
+- Advanced security features

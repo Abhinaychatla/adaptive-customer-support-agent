@@ -1,0 +1,11 @@
+ACCOUNT RECOVERY POLICY
+
+If a user cannot access their account due to a forgotten email, compromised account, or login issues, they may request account recovery.
+
+Recovery Process:
+1. Contact support.
+2. Verify account ownership.
+3. Provide registered email and recent activity details.
+4. Support reviews the request within 48 hours.
+
+Users may be asked to verify their identity before recovery is approved.
