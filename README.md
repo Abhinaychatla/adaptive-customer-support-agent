@@ -46,15 +46,31 @@ An AI customer support assistant that uses retrieval-augmented generation, escal
 pip install -r requirements.txt
 ```
 
-3. Set your Gemini API key.
+3. Set your Gemini API key:
+
+### Windows PowerShell
+
+```powershell
+$env:GOOGLE_API_KEY="your_api_key_here"
+```
+
+### Linux / macOS
+
+```bash
+export GOOGLE_API_KEY="your_api_key_here"
+```
 
 ## Build The Vector Store
+
+Run the vector store script from the `rag/` directory so its relative paths resolve correctly:
 
 ```bash
 cd rag
 python create_vectorstore.py
 cd ..
 ```
+
+This reads the text files in `docs/`, chunks them, and saves the embeddings to `chroma_db/`.
 
 ## Run The App
 
@@ -70,7 +86,7 @@ python app.py
 python ui/gradio_ui.py
 ```
 
-The Gradio app launches on port 7860.
+The Gradio app launches on port `7860`.
 
 ## Knowledge Base Topics
 
@@ -85,8 +101,33 @@ The Gradio app launches on port 7860.
 - Subscription plans
 - User management
 
+## Features
+
+- Retrieval-Augmented Generation (RAG)
+- Chroma Vector Database
+- Gemini 2.5 Flash
+- Human Escalation Detection
+- Handoff Summary Generation
+- Gradio Chat Interface
+
 ## Notes
 
 - If `chroma_db/` does not exist yet, build the vector store first.
 - The assistant answers only from the retrieved context when possible.
 - If escalation is triggered, it returns a human support handoff summary instead of a normal answer.
+- Store API keys using environment variables or Hugging Face Secrets.
+
+## Example Questions
+
+- What is your refund policy?
+- How do I reset my password?
+- What subscription plans are available?
+- How can I recover my account?
+- What does error code AUTH_401 mean?
+
+## Escalation Examples
+
+- I want a human agent.
+- Connect me to support.
+- I want to speak with a manager.
+- Escalate this issue.
