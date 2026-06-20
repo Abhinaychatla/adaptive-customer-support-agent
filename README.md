@@ -1,3 +1,15 @@
+---
+title: Persona Adaptive Customer Support Agent
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "5.34.2"
+python_version: "3.11"
+app_file: app.py
+pinned: false
+---
+
 # Persona-Adaptive Customer Support Agent
 
 An AI customer support assistant that uses retrieval-augmented generation, escalation detection, and handoff summaries to answer support questions from a local knowledge base.
@@ -22,34 +34,27 @@ An AI customer support assistant that uses retrieval-augmented generation, escal
 ## Requirements
 
 - Python 3.10+
-- A `GEMINI_API_KEY` environment variable
+- A `GOOGLE_API_KEY` environment variable
 
 ## Setup
 
 1. Create and activate a virtual environment.
+
 2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Set your Gemini API key:
-
-```powershell
-$env:GEMINI_API_KEY="your_api_key_here"
-```
+3. Set your Gemini API key.
 
 ## Build The Vector Store
 
-Run the vector store script from the `rag/` directory so its relative paths resolve correctly:
-
-```powershell
-Set-Location rag
+```bash
+cd rag
 python create_vectorstore.py
-Set-Location ..
+cd ..
 ```
-
-This reads the text files in `docs/`, chunks them, and saves the embeddings to `chroma_db/`.
 
 ## Run The App
 
@@ -65,7 +70,7 @@ python app.py
 python ui/gradio_ui.py
 ```
 
-The Gradio app launches on `http://0.0.0.0:7860` by default.
+The Gradio app launches on port 7860.
 
 ## Knowledge Base Topics
 
